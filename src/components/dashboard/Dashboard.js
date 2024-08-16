@@ -79,18 +79,18 @@ function Dashboard() {
       </div>
       <div className="widgets_contents">
         <div className="widgets_header d-flex justify-content-between my-3">
-          <div className="h4">CNAPP Dashboard</div>
+          <div className="widgets_title">CNAPP Dashboard</div>
           <div className="group_buttons">
             <button
-              className="btn btn-light mx-2 border"
+              className="btn btn-light border add_widget"
               onClick={() => setShowAddWidgets(true)}
             >
               +Add Widget
             </button>
-            <button className="btn btn-light border menu-btn">
+            <button className="btn btn-light border menu_btn">
               <img src={refreshIcon} alt="refresh" />
             </button>
-            <button className="btn btn-light mx-2 border menu_btn">
+            <button className="btn btn-light border menu_btn">
               <img src={menuIcon} alt="menu" height="20px" width='20px' />
             </button>
             <div className="dropdown_container">

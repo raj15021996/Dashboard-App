@@ -5,12 +5,16 @@
 .widgets_contents{
   background-color: aliceblue;
   padding: 10px 20px;
+  font-size: 1rem;
 }
 .widgets_header{
   background-color: transparent !important;
   border: 1px solid #fff;
 }
-
+.widgets_title{
+  font-size: 1.5rem;
+  font-weight: bold;
+}
 .notify_overlay {
   background-color: rgba(49, 49, 49, 0.3568627451);
   position: fixed;
@@ -22,8 +26,13 @@
 .group_buttons{
   display: flex;
 }
+.add_widget{
+  font-size: 1rem !important;
+  margin-right: 10px;
+}
 .menu_btn{
   padding: 3px !important;
+  margin-right: 10px;
 }
 .dropdown_container {
   position: relative;
@@ -76,4 +85,42 @@
 
 .dropdown_option:hover {
   background-color: #f0f0f0;
+}
+
+@media only screen and (max-width: 779px) {
+  .widgets_title{
+    font-size: 1.1rem;
+  }
+  .widgets_contents{
+    font-size: .7rem !important;
+  }
+  .add_widget{
+    font-size: .7rem !important;
+    margin-right: 5px;
+  }
+  .menu_btn{
+    margin-right: 5px;
+  }
+  .dropdown_container {
+    width: 130px;
+  }
+}
+
+@media only screen and (max-width: 420px) {
+  .widgets_title{
+    font-size: .8rem;
+  }
+  .widgets_contents{
+    font-size: .5rem !important;
+  }
+  .add_widget{
+    font-size: .5rem !important;
+    margin-right: 3px;
+  }
+  .menu_btn{
+    margin-right: 3px;
+  }
+  .dropdown_container {
+    width: 120px;
+  }
 }

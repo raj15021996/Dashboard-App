@@ -48,7 +48,7 @@ const Widget = ({ widget, setShowAddWidgets, setSelectedId, catagoryId }) => {
 
   const chartOptions = {
     responsive: true,
-    maintainAspectRatio: false,
+    // maintainAspectRatio: false,
     cutout: "60%",
     plugins: {
       legend: {
@@ -175,7 +175,7 @@ const Widget = ({ widget, setShowAddWidgets, setSelectedId, catagoryId }) => {
   };
 
   return (
-    <div className="col-md-4 mb-4">
+    <div className="col-lg-4 mb-4">
       <div className="card">
         {status ? (
           <div className="card_body">

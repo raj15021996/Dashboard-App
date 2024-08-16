@@ -11,7 +11,7 @@ function Header({setSearchTerm}) {
           <Breadcrumb.Item active>Dashboard</Breadcrumb.Item>
         </Breadcrumb>
       </div>
-      <div className="search mx-5">
+      <div className="search">
         <img src={searchIcon} alt="search" className="search_img mx-2"/>
         <input
           type='text'
