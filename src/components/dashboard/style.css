@@ -1,0 +1,79 @@
+.main_content{
+  padding: 10px;
+}
+
+.widgets_contents{
+  background-color: aliceblue;
+  padding: 10px 20px;
+}
+.widgets_header{
+  background-color: transparent !important;
+  border: 1px solid #fff;
+}
+
+.notify_overlay {
+  background-color: rgba(49, 49, 49, 0.3568627451);
+  position: fixed;
+  inset: 0;
+  z-index: 10;
+  right: 540px;
+}
+
+.group_buttons{
+  display: flex;
+}
+.menu_btn{
+  padding: 3px !important;
+}
+.dropdown_container {
+  position: relative;
+  width: 150px;
+  border: 1px solid rgb(1, 78, 144);
+  border-radius: 5px;
+  background-color: #fff;
+  font-family: 'Arial', sans-serif;
+}
+
+.dropdown_header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0px 5px; 
+  cursor: pointer;
+  height: 100%;
+}
+
+.clock_icon {
+  border-right: 1px solid rgb(1, 78, 144);
+  color: #3f3d56;
+  margin-right: 8px;
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+
+.arrow {
+  margin-left: 8px;
+  color: #3f3d56;
+}
+
+.dropdown_options {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  right: 0;
+  background-color: #fff;
+  border: 1px solid #3f3d56;
+  border-radius: 5px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+  z-index: 1000;
+}
+
+.dropdown_option {
+  padding: 8px 12px;
+  cursor: pointer;
+}
+
+.dropdown_option:hover {
+  background-color: #f0f0f0;
+}

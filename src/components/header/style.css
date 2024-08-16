@@ -1,0 +1,21 @@
+.search{
+    border: 1px solid #d3d3d3;
+    padding: 5px 10px;
+    border-radius: 10px;
+    width: 30rem;
+    background: aliceblue;
+}
+.search_input{
+    border: none !important;
+    background-color: transparent;
+}
+.search_input:focus{
+    outline: none;
+}
+.main_header_content{
+    height: 3rem;
+}
+.header_breadcrumb >nav> ol{
+    margin: 0px !important;
+    padding: 0px !important;
+}

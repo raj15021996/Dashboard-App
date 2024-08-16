@@ -1,0 +1,138 @@
+.add_widgets_sidebar {
+    width: 640px;
+    height: 100vh;
+    box-shadow: -1px 8px 10px rgba(0, 0, 0, 0.0509803922);
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #ffffff;
+    z-index: 99;
+}
+
+.close-notification-btn {
+    display: flex;
+    justify-content: flex-end;
+    padding: 15px 15px 0 0;
+    cursor: pointer;
+}
+.sidebar_title_box {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 20px 28px;
+}
+.notifi_sidebar_head p {
+    margin-bottom: 0px;
+    background-color: #f3f8fe;
+    color: #516e95;
+    font-size: 18px;
+    line-height: 23px;
+    font-weight: 400;
+    padding: 9px 20px;
+    font-family: Muli-Bold;
+}
+
+.sidebar_title_box {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 20px 28px;
+}
+
+.notifi_sidebar_head p {
+    margin-bottom: 0px;
+    background-color: #f3f8fe;
+    color: #516e95;
+    font-size: 18px;
+    line-height: 23px;
+    font-weight: 400;
+    padding: 9px 20px;
+    font-family: Muli-Bold;
+}
+.addwidget-head{
+  background-color: #01377d;
+  display: flex;
+  justify-content: space-between;
+  color: #ffffff;
+}
+.addwidget-head h6{
+    margin: 0px;
+    padding: 0px;
+}
+
+.cross-btn{
+ font-weight: bold;
+ cursor: pointer;
+}
+.tc_sidebar_main {
+    width: 100%;
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.sidebar_btn{
+   border: none;
+   background-color: #01377d;
+   color: #ffffff;
+   padding: 10px 20px;
+   border-radius: 5px;
+}
+
+.sidebar_btn:hover{
+    background-color: #01377dcf;
+    cursor: pointer;
+ }
+
+.catagory_detailstab {
+    padding-bottom: 10px;
+    gap: 0 23px;
+    border-color: #E4E4E4;
+    margin-bottom: 25px;
+}
+.nav-tabs {
+    border-bottom: 1px solid #dee2e6;
+}
+.nav {
+    display: flex;
+    flex-wrap: wrap;
+    padding-left: 0;
+    margin-bottom: 0;
+    list-style: none;
+}
+.catagory_detailstab .nav-item .nav-link:first-child {
+    padding-left: 10px;
+}
+
+.catagory_detailstab .nav-item .nav-link {
+    color: #707070;
+    font-size: 16px;
+    line-height: 25px;
+    background: transparent;
+    border-bottom: 2px solid transparent;
+    border: none;
+    padding-bottom: 18px;
+    margin-bottom: -11px;
+    padding-right: 5px;
+}
+
+.nav-tabs .nav-link {
+    margin-bottom: -1px;
+    border: 1px solid transparent;
+    border-top-left-radius: 0.25rem;
+    border-top-right-radius: 0.25rem;
+}
+
+.catagory_detailstab .nav-item .active {
+    color: #000;
+    font-weight: 500;
+    border-bottom: 2px solid #000;
+}
+
+.form-check{
+    margin-top: 10px  !important;
+    border: 1px solid #797979a3 !important;
+    border-radius: 10px !important;
+    padding:.5em 2.5em !important;
+}

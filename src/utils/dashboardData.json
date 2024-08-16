@@ -1,0 +1,186 @@
+{
+  "categories": [
+    {
+      "id": "cspm1",
+      "name": "CSPM Executive Dashboard",
+      "tab": "CSPM",
+      "widgets": [
+        {
+          "id": "widget1",
+          "name": "Cloud Accounts",
+          "status": true,
+          "graphData": {
+            "type": "doughnut",
+            "data": [
+              { "name": "Connected", "value": 2 },
+              { "name": "Not Connected", "value": 2 }
+            ],
+            "backgroundColor": ["#c2c9cc","#36A2EB"]
+          }
+        },
+        {
+          "id": "widget2",
+          "name": "Cloud Account Risk Assessment",
+          "status": true,
+          "graphData": {
+            "type": "doughnut",
+            "data": [
+              { "name": "Failed", "value": 1689 },
+              { "name": "Warning", "value": 681 },
+              { "name": "Not Available", "value": 36 },
+              { "name": "Passed", "value": 7253 }
+            ],
+            "backgroundColor": ["#FF6384", "#FFCE56", "#FF9F40", "#4BC0C0"]
+          }
+        },
+        {
+          "id": "widget3",
+          "name": "Registry Scan",
+          "status": false,
+          "graphData": {
+            "type": "doughnut",
+            "data": [
+              { "name": "Critical", "value": 9 },
+              { "name": "High", "value": 50 }
+            ],
+            "backgroundColor": ["#FF6384", "#FFCE56"]
+          }
+        }
+      ]
+    },
+    {
+      "id": "cwpp1",
+      "name": "CWPP Dashboard",
+      "tab": "CWPP",
+      "widgets": [
+        {
+          "id": "widget4",
+          "name": "Top 5 Namespace Specific Alerts",
+          "status": true,
+          "graphData": null
+        },
+        {
+          "id": "widget5",
+          "name": "Workload Alerts",
+          "status": true,
+          "graphData": null
+        },
+        {
+          "id": "widget6",
+          "name": "Image Security Issues",
+          "status": false,
+          "graphData": {
+            "type": "doughnut",
+            "data": [
+              {"name": "Critical", "value": 2 },
+              { "name": "High", "value": 2}
+            ],
+            "backgroundColor": ["#c2c9cc","#36A2EB"]
+          }
+        }
+      ]
+    },
+    {
+      "id": "netsec1",
+      "name": "Resistry Scan",
+      "tab": "Image",
+      "widgets": [
+        {
+          "id": "widget7",
+          "name": "Image Risk Assessment",
+          "status": true,
+          "graphData": {
+            "type": "bar",
+            "sub_title":"Vulnerabilities",
+            "total":1470,
+            "data": [
+              { "name": "critical", "value": 150, "color": "#781614" },
+              { "name": "high", "value": 500, "color": "#eb9e34" },
+              { "name": "medium", "value": 400, "color": "#ebc634" },
+              { "name": "low", "value": 50, "color": "#6adceb" }
+            ]
+          }
+        },
+        {
+          "id": "widget8",
+          "name": "Image Security Issues",
+          "status": true,
+          "graphData": {
+            "sub_title":"Vulnerabilities",
+            "total":20,
+            "type": "bar",
+            "data": [
+              { "name": "critical", "value": 2, "color": "#781614" },
+              { "name": "high", "value": 2, "color": "#fc4542" },
+              { "name": "medium", "value": 7, "color": "#eb9e34" },
+              { "name": "low", "value": 6, "color": "#ebc634" }
+            ]
+          }
+        },
+        {
+          "id": "widget9",
+          "name": "Image Processing Issues",
+          "status": false,
+          "graphData": {
+            "sub_title":"Processed Image",
+            "total":120,
+            "type": "bar",
+            "data": [
+              { "name": "critical", "value": 45, "color": "#fc8642" },
+              { "name": "high", "value": 20, "color": "#ed535b" },
+              { "name": "medium", "value": 10, "color": "#7d7d3e" },
+              { "name": "low", "value": 25, "color": "#4a7ef7" }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "appsec1",
+      "name": "Application Security Dashboard",
+      "tab": "Application",
+      "widgets": [
+        {
+          "id": "widget10",
+          "name": "App Vulnerabilities",
+          "status": true,
+          "graphData": {
+            "type": "doughnut",
+            "data": [
+              { "name": "Critical", "value": 10 },
+              { "name": "Moderate", "value": 20 }
+            ],
+            "backgroundColor": ["#4BC0C0", "#FF9F40"]
+          }
+        },
+        {
+          "id": "widget11",
+          "name": "Third-party Libraries",
+          "status": true,
+          "graphData": {
+            "type": "doughnut",
+            "data": [
+              { "name": "Up-to-date", "value": 35 },
+              { "name": "Outdated", "value": 15 }
+            ],
+            "backgroundColor": ["#6dfc42", "#FF9F40"]
+          }
+        },
+        {
+          "id": "widget12",
+          "name": "Compliance Checks",
+          "status": false,
+          "graphData": {
+            "type": "doughnut",
+            "data": [
+              { "name": "Compliant", "value": 40 },
+              { "name": "Non-compliant", "value": 10 },
+              { "name": "All-compliant", "value": 50 }
+            ],
+            "backgroundColor": ["#fc4242", "#ebc634", "#42fcbe"]
+          }
+        }
+      ]
+    }
+  ]
+}

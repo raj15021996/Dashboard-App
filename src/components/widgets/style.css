@@ -1,0 +1,32 @@
+.card{
+    height: 200px !important;
+}
+.card_body{
+  padding: 10px;
+  max-height: 20rem;
+}
+
+.card_body canvas {
+    max-height: 150px !important;
+  }
+  .progress_content{
+    width: 100%;
+    padding: 20px;
+    background-color: #f8f9fa;
+    border-radius: 8px;
+  }
+  .progress_values{
+    width: 12px;
+    height: 12px;
+    margin-right: 5px;
+  }
+
+  .chart_container {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start; 
+  }
+  
+  .chart {
+    margin-right: 50px; 
+  }
